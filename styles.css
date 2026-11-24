@@ -63,6 +63,8 @@ h1, h2, h3 { font-weight: 500; }
 .pill--light:hover { color: #fff; }
 .pill--dark { background: var(--ink); color: #fff; }
 .pill--dark::before { background: var(--accent); }
+.pill--fill-white::before { background: #fff; }
+.pill--fill-white:hover { color: var(--ink); }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -164,6 +166,8 @@ h1, h2, h3 { font-weight: 500; }
 /* ---------- Section heads ---------- */
 .section-head { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: start; margin-bottom: 72px; }
 .section-head h2 { font-size: clamp(30px, 2.8vw, 40px); line-height: 1.15; }
+.section-head h2.label { font-size: 20px; line-height: inherit; }
+.works .section-head { margin-bottom: 40px; }
 
 /* ---------- Works ---------- */
 .works { padding-top: 0; }
