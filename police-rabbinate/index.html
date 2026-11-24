@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Police Rabbinate App — ayala</title>
+<meta name="description" content="UX/UI case study of the Police Rabbinate app and admin system.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="site-header.css">
+</head>
+<body>
+
+
+<div class="progress" aria-hidden="true"><span></span></div>
+<header class="sh" id="header">
+  <div class="sh-row">
+    <a class="sh-logo" href="../" aria-label="Ayala – home">Ayala<span>.</span></a>
+    <nav class="sh-nav" aria-label="Main">
+      <a href="../">Home</a>
+      <a href="../#about">About</a>
+      <a href="../#works">Works</a>
+      <a href="../#services">Services</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+    <div class="sh-actions">
+      <button class="sh-menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="sh-overlay"><span></span><span></span></button>
+      <a class="sh-pill" href="https://wa.me/972534167936" target="_blank" rel="noopener">Let’s chat <span class="sh-wave" aria-hidden="true">👋</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="sh-overlay" id="sh-overlay" hidden>
+  <nav aria-label="Menu">
+    <a href="../"><small>01</small>Home</a>
+    <a href="../#about"><small>02</small>About</a>
+    <a href="../#works"><small>03</small>Works</a>
+    <a href="../#services"><small>04</small>Services</a>
+    <a href="../#contact"><small>05</small>Contact</a>
+  </nav>
+</div>
+
+<div class="page" id="page">
+<div class="wrap">
+
+  <!-- ============ HERO ============ -->
+  <div class="tags">
+    <span class="r" style="--d:0">UX/UI</span><span class="r" style="--d:1">B2G</span><span class="r" style="--d:2">Mobile App</span><span class="r" style="--d:3">iOS &amp; Android</span><span class="r" style="--d:4">Content System</span>
+  </div>
+
+  <section class="hero" id="hero">
+    <div class="hero-card">
+      <h1 class="hero-title"><span class="line"><span>Police</span></span><span class="line"><span>Rabbinate App</span></span></h1>
+      <p class="hero-sub r" style="--d:3">All religious services for police officers — organized in one app.</p>
+      <div class="r" style="--d:4"><a class="hero-btn magnetic" href="#screens"><span>View the App</span></a></div>
+    </div>
+    <div class="hero-phones" id="heroPhones">
+      <img src="1-purple-b%202.png" alt="Police Rabbinate app on two phones" width="554" height="683">
+    </div>
+  </section>
+
+  <!-- ============ META ============ -->
+  <div class="meta r">
+    <div><small>Client</small><b>Israel Police Rabbinate</b></div>
+    <div><small>Role</small><b>UX / UI Design</b></div>
+    <div><small>Platform</small><b>iOS · Android</b></div>
+    <div><small>Year</small><b>2024</b></div>
+  </div>
+
+  <!-- ============ WHO / WHAT / WHY ============ -->
+  <section class="features">
+    <article class="feat r" style="--d:0">
+      <div class="chip"><img src="assets/icon-ask.svg" alt=""></div>
+      <span class="eyebrow">WHO</span>
+      <h3>Officers &amp; rabbis</h3>
+      <p style="width:276px">Police officers of every rank and level of observance — and the rabbis who serve them.</p>
+    </article>
+    <article class="feat r" style="--d:1">
+      <div class="chip"><img src="assets/icon-phone.svg" alt=""></div>
+      <span class="eyebrow">WHAT</span>
+      <h3>App + admin system</h3>
+      <p style="width:283px">A mobile app for officers and a web admin system for rabbis and content editors.</p>
+    </article>
+    <article class="feat r" style="--d:2">
+      <div class="chip"><img src="assets/icon-users.svg" alt=""></div>
+      <span class="eyebrow">WHY</span>
+      <h3>Answers that fit police work</h3>
+      <p>Officers need fast, reliable answers for real situations — Shabbat on duty, kashrut in the field, prayer mid-shift.</p>
+    </article>
+  </section>
+
+  <!-- ============ PROBLEM + TOPICS ============ -->
+  <section class="two sec-problem">
+    <div class="col">
+      <div class="card dark logo-card r">
+        <img class="police-logo" src="Group%201000003290.png" alt="Police Rabbinate emblem" width="198" height="192">
+      </div>
+      <h2 class="problem-title r">Problem statement</h2>
+      <p class="problem-body r">Officers lack one accessible, discreet channel for religious services that fits their schedule — and the Rabbinate lacks a structured tool to serve them.</p>
+      <div class="card grey img-card r" style="height:626px;margin-top:133px">
+        <img class="par" src="2-green-b%201.png" alt="" style="left:0;top:46px;width:552px;height:580px">
+      </div>
+    </div>
+    <div class="col" style="padding-top:159px">
+      <div class="card grey img-card r" style="height:692px">
+        <img class="par" src="1-purple-b%202.png" alt="" style="left:12px;top:0;width:554px;height:683px">
+      </div>
+      <div class="card dark topics r" id="topics" style="height:613px;margin-top:192px">
+        <div class="stage" data-w="554" data-h="613">
+          <div class="tp" style="left:117px;top:321px;width:126px;height:56px;--r:3deg"><span class="t-white">General</span></div>
+          <div class="tp" style="left:261px;top:336px;width:269px;height:64px;--r:-3deg"><span class="t-cream">Halacha &amp; Technology</span></div>
+          <div class="tp" style="left:27px;top:377px;width:201px;height:64px;--r:4deg"><span class="t-purple-dark">Other Religions</span></div>
+          <div class="tp" style="left:236px;top:281px;width:160px;height:53px;--r:-1deg"><span class="t-purple">Conversion</span></div>
+          <div class="tp" style="left:253px;top:455px;width:227px;height:69px;--r:-5deg"><span class="t-navy">Mourning &amp; Burial</span></div>
+          <div class="tp" style="left:404px;top:400px;width:136px;height:55px;--r:2deg"><span class="t-white">Holidays</span></div>
+          <div class="tp" style="left:23px;top:458px;width:226px;height:69px;--r:5deg"><span class="t-cream">Family &amp; Modesty</span></div>
+          <div class="tp" style="left:191px;top:525px;width:233px;height:58px;--r:-2deg"><span class="t-blue">Prayer &amp; Blessings</span></div>
+          <div class="tp" style="left:66px;top:527px;width:127px;height:56px;--r:3deg"><span class="t-purple">Kashrut</span></div>
+          <div class="tp" style="left:424px;top:530px;width:133px;height:59px;--r:-4deg"><span class="t-white">Shabbat</span></div>
+          <p class="drag-hint">Drag the topics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CHALLENGE ============ -->
+  <section class="challenge">
+    <h2 class="ch-head r"><span class="num">01</span>The challenge</h2>
+    <div class="ch-list">
+      <div class="ch-item r" style="width:572px"><h4>Sensitive questions</h4><p>Personal topics inside a hierarchical organization → personal details are visible to the rabbi only.</p></div>
+      <div class="ch-item r" style="margin-top:39px"><h4>A diverse audience</h4><p>Secular to Haredi → a warm, neutral tone; content by topic, not by level of observance.</p></div>
+      <div class="ch-item r" style="margin-top:38px;width:603px"><h4>Use on the go</h4><p style="margin-top:12px">Short breaks, patrol cars, night shifts → large tap targets, 5-tab bottom nav, key info on Home.</p></div>
+      <div class="ch-item r" style="margin-top:33px"><h4>A two-sided system</h4><p>The app is only as fast as the rabbi → a dedicated admin system with statuses and assignment.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ USER RESEARCH ============ -->
+  <section class="research">
+    <div class="sec-head r"><span class="num">02</span><h2 class="h-xb">User Research</h2></div>
+    <div class="stats">
+      <div class="stat r" style="--bg:#0a1626;--d:0" data-v="91">
+        <svg viewBox="0 0 178 178"><circle class="trk" cx="89" cy="89" r="78"/><circle class="arc" cx="89" cy="89" r="78"/></svg>
+        <div class="val"><b>0</b><i>%</i></div>
+        <p style="top:272px;width:auto;white-space:nowrap">prefer to ask privately</p>
+      </div>
+      <div class="stat r" style="--bg:#4b4ee4;--d:1" data-v="60">
+        <svg viewBox="0 0 178 178"><circle class="trk" cx="89" cy="89" r="78"/><circle class="arc" cx="89" cy="89" r="78"/></svg>
+        <div class="val"><b>0</b><i>%</i></div>
+        <p style="width:216px">had a religious question at work and didn't ask anyone</p>
+      </div>
+      <div class="stat r" style="--bg:#313b49;--d:2" data-v="48">
+        <svg viewBox="0 0 178 178"><circle class="trk" cx="89" cy="89" r="78"/><circle class="arc" cx="89" cy="89" r="78"/></svg>
+        <div class="val"><b>0</b><i>%</i></div>
+        <p style="width:246px">Turn to a rabbi or colleague for answers to religious questions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECT GOALS ============ -->
+  <section class="goals">
+    <div class="orbit-wrap">
+      <div class="stage" data-w="590" data-h="570">
+        <div class="ring r4"></div><div class="ring r3"></div><div class="ring r2"></div><div class="ring r1"></div>
+        <div class="goal-logo"></div>
+        <div class="orbit" id="orbit">
+          <span class="gp" style="left:249px;top:28px;width:96px">Updates</span>
+          <span class="gp" style="left:52px;top:135px;width:128px">Ask the Rabbi</span>
+          <span class="gp" style="left:440px;top:135px;width:85px">Videos</span>
+          <span class="gp" style="left:60px;top:314px;width:74px">Posts</span>
+          <span class="gp" style="left:440px;top:333px;width:128px">Daily Times</span>
+          <span class="gp" style="left:231px;top:453px;width:128px">Ask the Rabbi</span>
+        </div>
+      </div>
+    </div>
+    <div class="goals-text">
+      <div class="sec-head r"><span class="num">03</span><h2 class="h-ub">Project Goals</h2></div>
+      <p class="r">The app gives officers quick access to trusted religious services and information. It helps the Rabbinate answer questions efficiently and better understand officers’ needs.</p>
+    </div>
+  </section>
+
+  <!-- ============ PERSONAS ============ -->
+  <section class="two personas">
+    <div class="col">
+      <h2 class="personas-title r">Personas</h2>
+      <article class="card purple persona r" style="margin-top:39px">
+        <img class="p-photo" src="Group%201261152370.png" alt="Avi, patrol officer" style="left:52px;top:14px;width:332px;height:364px">
+        <div class="p-text" style="left:41px;top:411px;width:395px">
+          <h3>Avi, 32 — Patrol officer</h3>
+          <p>Traditional, rotating shifts including Shabbat.<br><b>Goal:</b> a quick answer that fits his shift.<br><b>Pain:</b> doesn't know who to ask; uses 3 apps for times and synagogues.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col" style="padding-top:47px">
+      <article class="card dark persona r" style="margin-left:4px">
+        <img class="p-photo" src="Group%201261152376.png" alt="Rabbi David, district rabbi" style="left:175px;top:34px;width:332px;height:348px">
+        <div class="p-text" style="left:35px;top:385px;width:424px">
+          <span class="eyebrow">RABBI</span>
+          <h3>Rabbi David, 48 — District rabbi</h3>
+          <p>Answers questions and supports officers.<br><b>Goal:</b> see every question in one place and answer fast.<br><b>Pain:</b> questions arrive by phone, WhatsApp and SMS, with no tracking.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ USER FLOW ============ -->
+  <section class="flow">
+    <div class="sec-head flow-head r"><span class="num">04</span><h2 class="h-black">User flow</h2></div>
+    <div class="flow-scroll">
+      <div class="flow-stage" id="flow">
+        <svg class="flow-lines" width="1040" height="660" viewBox="0 0 1040 660" fill="none">
+          <g stroke="#4b4ee4" stroke-width="1.5">
+            <path class="fl" style="--i:0" d="M70 40 V80"/>
+            <path class="fl" style="--i:1" d="M70 120 V160"/>
+            <path class="fl" style="--i:2" d="M70 200 V240"/>
+            <path class="fl" style="--i:3" d="M140 260 H180 V640"/>
+            <path class="fl" style="--i:4" d="M180 260 H210"/><path class="fl" style="--i:4" d="M180 355 H210"/><path class="fl" style="--i:4" d="M180 450 H210"/><path class="fl" style="--i:4" d="M180 545 H210"/><path class="fl" style="--i:4" d="M180 640 H210"/>
+            <path class="fl" style="--i:5" d="M360 260 H382"/><path class="fl" style="--i:5" d="M360 355 H382"/><path class="fl" style="--i:5" d="M360 450 H382"/><path class="fl" style="--i:5" d="M360 545 H382"/><path class="fl" style="--i:5" d="M360 640 H382"/>
+            <path class="fl" style="--i:6" d="M496 260 H518"/><path class="fl" style="--i:6" d="M496 355 H518"/><path class="fl" style="--i:6" d="M496 450 H518"/><path class="fl" style="--i:6" d="M496 545 H518"/><path class="fl" style="--i:6" d="M496 640 H518"/>
+            <path class="fl" style="--i:7" d="M632 260 H654"/><path class="fl" style="--i:7" d="M632 450 H654"/>
+            <path class="fl" style="--i:8" d="M768 260 H790"/>
+            <path class="fl" style="--i:9" d="M904 260 H926"/>
+          </g>
+          <g fill="#4b4ee4" class="fdots">
+            <circle style="--i:0" cx="70" cy="80" r="3.5"/><circle style="--i:1" cx="70" cy="160" r="3.5"/><circle style="--i:2" cx="70" cy="240" r="3.5"/>
+            <circle style="--i:4" cx="210" cy="260" r="3.5"/><circle style="--i:4" cx="210" cy="355" r="3.5"/><circle style="--i:4" cx="210" cy="450" r="3.5"/><circle style="--i:4" cx="210" cy="545" r="3.5"/><circle style="--i:4" cx="210" cy="640" r="3.5"/>
+            <circle style="--i:5" cx="382" cy="260" r="3.5"/><circle style="--i:5" cx="382" cy="355" r="3.5"/><circle style="--i:5" cx="382" cy="450" r="3.5"/><circle style="--i:5" cx="382" cy="545" r="3.5"/><circle style="--i:5" cx="382" cy="640" r="3.5"/>
+            <circle style="--i:6" cx="518" cy="260" r="3.5"/><circle style="--i:6" cx="518" cy="355" r="3.5"/><circle style="--i:6" cx="518" cy="450" r="3.5"/><circle style="--i:6" cx="518" cy="545" r="3.5"/><circle style="--i:6" cx="518" cy="640" r="3.5"/>
+            <circle style="--i:7" cx="654" cy="260" r="3.5"/><circle style="--i:7" cx="654" cy="450" r="3.5"/>
+            <circle style="--i:8" cx="790" cy="260" r="3.5"/><circle style="--i:9" cx="926" cy="260" r="3.5"/>
+          </g>
+        </svg>
+        <span class="fn dk" style="top:0;--i:0">Splash screen</span>
+        <span class="fn dk" style="top:80px;--i:1">Onboarding</span>
+        <span class="fn dk" style="top:160px;--i:2">Login</span>
+        <span class="fn dk" style="top:240px;--i:3">Home</span>
+        <span class="fn pp" style="top:240px;--i:4">Ask the Rabbi</span>
+        <span class="fn pp" style="top:335px;--i:4">Daily times</span>
+        <span class="fn pp" style="top:430px;--i:4">Synagogues</span>
+        <span class="fn pp" style="top:525px;--i:4">Videos</span>
+        <span class="fn pp" style="top:620px;--i:4">Posts &amp; updates</span>
+
+        <span class="ft" style="left:384px;top:251px;--i:5">Topic &amp; sub-topic</span>
+        <span class="ft" style="left:520px;top:251px;--i:6">Write question</span>
+        <span class="ft" style="left:656px;top:251px;--i:7">Send</span>
+        <span class="ft" style="left:792px;top:251px;--i:8">"Awaiting answer"</span>
+        <span class="ft" style="left:928px;top:251px;--i:9">Answer &amp; share</span>
+
+        <span class="ft" style="left:384px;top:346px;--i:5">Choose city</span>
+        <span class="ft" style="left:520px;top:346px;--i:6">Switch day</span>
+
+        <span class="ft" style="left:384px;top:441px;--i:5">Filter by city</span>
+        <span class="ft" style="left:520px;top:441px;--i:6">Synagogue page</span>
+        <span class="ft" style="left:656px;top:441px;--i:7">Navigate (Waze)</span>
+
+        <span class="ft" style="left:384px;top:536px;--i:5">Search</span>
+        <span class="ft" style="left:520px;top:536px;--i:6">Watch &amp; share</span>
+
+        <span class="ft" style="left:384px;top:631px;--i:5">Read article</span>
+        <span class="ft" style="left:520px;top:631px;--i:6">Share</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WIREFRAMES ============ -->
+  <section class="two wireframes">
+    <div class="col">
+      <div class="sec-head r"><span class="num">05</span><h2 class="h-b">Wireframes</h2></div>
+      <div class="card grey img-card r" style="height:553px;margin-top:60px">
+        <img class="par" src="3-macbook-cream-a%202.png" alt="Admin wireframe on laptop" style="left:31px;top:100px;width:492px;height:344px">
+      </div>
+      <div class="card grey img-card r" style="height:626px;margin-top:60px">
+        <img class="par" src="6-cream-answer-b%202.png" alt="Answer screen wireframe" style="left:0;top:117px;width:509px;height:509px;border-radius:56px">
+      </div>
+    </div>
+    <div class="col" style="padding-top:38px">
+      <div class="card grey img-card r" style="height:692px">
+        <img class="par" src="3-lavender-a%201.png" alt="Ask the Rabbi wireframe" style="left:120px;top:111px;width:300px;height:522px;object-position:bottom">
+      </div>
+      <div class="card grey img-card r" style="height:547px;margin-top:70px">
+        <img class="par" src="2-cream-b%201.png" alt="Send question wireframe" style="left:42px;top:90px;width:457px;height:457px">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESIGN SYSTEM ============ -->
+  <section class="ds">
+    <div class="sec-head r"><span class="num">06</span><h2 class="h-b">Design System</h2></div>
+    <div class="two" style="margin-top:51px">
+      <div class="col">
+        <div class="swatches r" id="swatches">
+          <button class="sw sw-navy" data-hex="#0D1B2E"><span>0D1B2E</span></button>
+          <button class="sw sw-purple" data-hex="#4B4EE4"><span>4B4EE4</span></button>
+          <button class="sw sw-light" data-hex="#F1F4F9"><span>F1F4F9</span></button>
+        </div>
+        <p class="icone r">ICONE</p>
+        <div class="card icons-card r">
+          <img src="assets/ds-icons.png" alt="Topic icon set" width="453" height="164">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card grey typo r">
+          <p class="t-label">typography</p>
+          <p class="t-big">Rubik</p>
+          <p class="t-row">Rubik Black · 44 · Titles</p>
+          <p class="t-row">Rubik Bold · 20 · Headings</p>
+          <p class="t-row">Rubik Regular · 16 · Body</p>
+          <p class="t-row">Rubik SemiBold · 14 · Labels</p>
+          <p class="t-heb" dir="rtl">אבגדהוזחטיכלמנסעפצקרשת</p>
+          <p class="t-row" style="white-space:pre">Aa Bb Cc Dd Ee Ff Gg   1234567890</p>
+        </div>
+      </div>
+    </div>
+    <div class="ds-row">
+      <div class="dbox r" style="width:408px;--d:0">
+        <img src="assets/nav-1.png" alt="" style="left:37px;top:30px">
+        <img src="assets/nav-2.png" alt="" style="left:37px;top:94px">
+        <img src="assets/nav-3.png" alt="" style="left:37px;top:158px">
+        <img src="assets/nav-4.png" alt="" style="left:37px;top:222px">
+      </div>
+      <div class="dbox r" style="width:358px;--d:1">
+        <button class="pill p-dark" style="top:30px">שליחה</button>
+        <button class="plus p-dark" style="top:31.6px" aria-label="Add"></button>
+        <button class="pill p-purple" style="top:102px">שליחה</button>
+        <button class="plus p-purple" style="top:103.6px" aria-label="Add"></button>
+        <button class="pill p-line" style="top:180px">שליחה</button>
+        <button class="plus p-line" style="top:181.6px" aria-label="Add"></button>
+      </div>
+      <div class="dbox r" style="width:337px;--d:2">
+        <img src="assets/ds-icon-grid.png" alt="UI icon set" style="left:47px;top:56px">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCREENS ============ -->
+  <section class="screens" id="screens">
+    <div class="sec-head r"><span class="num">07</span><h2 class="h-db">Screens</h2></div>
+
+    <svg class="conn" style="left:599px;top:600px" width="202" height="98" viewBox="0 0 202 98" fill="none"><path d="M1 1 H178 A23 23 0 0 1 201 24 V97"/></svg>
+    <svg class="conn" style="left:384px;top:1355px;transform:scaleX(-1)" width="202" height="98" viewBox="0 0 202 98" fill="none"><path d="M1 1 H178 A23 23 0 0 1 201 24 V97"/></svg>
+    <svg class="conn" style="left:599px;top:1810px" width="202" height="98" viewBox="0 0 202 98" fill="none"><path d="M1 1 H178 A23 23 0 0 1 201 24 V97"/></svg>
+
+    <div class="scr" style="left:-6px;top:166px">
+      <div class="card grey img-card r" style="width:554px;height:760px">
+        <div class="lav par" style="left:78px;top:60px"><img src="assets/lavender-phone.png" alt=""></div>
+        <div class="scr-over par" style="left:114px;top:107px;width:304px;height:569px"><img src="assets/screen-home.png" alt="Home screen"></div>
+      </div>
+      <div class="cap r" style="margin:36px 0 0 4px"><h3>Home screen</h3><p>A daily hub: a news ticker, the daily halacha carousel, a featured video and the latest questions and posts.</p></div>
+    </div>
+
+    <div class="scr" style="left:615px;top:734px">
+      <div class="card grey img-card r" style="width:554px;height:760px">
+        <div class="lav par" style="left:93px;top:60px"><img src="assets/lavender-phone.png" alt=""></div>
+        <div class="scr-over flow-player par" data-flow style="left:129px;top:107px;width:304px;height:569px" aria-label="Animated walkthrough: writing a question to the rabbi">
+          <img class="fp on" data-tap="29,482" data-hold="1900" data-fx="fade" data-label="Tap + to ask" src="assets/flow/1-list.png" alt="">
+          <img class="fp" data-tap="153,348" data-hold="1700" data-fx="up" data-label="Open the sub-topics" src="assets/flow/2-compose.png" alt="">
+          <img class="fp" data-tap="257,419" data-hold="1700" data-fx="fade" data-label="Pick a sub-topic" src="assets/flow/3-subtopic.png" alt="">
+          <img class="fp" data-tap="244,241" data-hold="1700" data-fx="fade" data-label="Choose your role" src="assets/flow/4-role.png" alt="">
+          <img class="fp" data-tap="153,526" data-hold="2200" data-fx="fade" data-label="Send the question" src="assets/flow/2-compose.png" alt="">
+          <span class="tap"></span>
+        </div>
+        <div class="fp-bar"><span class="fp-label"></span><span class="fp-dots"></span></div>
+      </div>
+      <div class="cap r" style="margin:38px 0 0 9px;width:331px"><h3>Ask the Rabbi</h3><p>Ten topics with icons and search. Every question opens a full Q&amp;A page that can be shared.</p></div>
+    </div>
+
+    <div class="scr" style="left:0;top:1479px">
+      <div class="card grey img-card r" style="width:554px;height:760px">
+        <div class="lav par" style="left:93px;top:60px"><img src="assets/lavender-phone.png" alt=""></div>
+        <div class="scr-over flow-player par" data-flow style="left:129px;top:107px;width:304px;height:569px" aria-label="Animated walkthrough: question sent and answered">
+          <img class="fp on" data-tap="153,526" data-hold="1800" data-fx="fade" data-label="Tap send" src="assets/flow/2-compose.png" alt="">
+          <img class="fp" data-tap="153,427" data-hold="2400" data-fx="pop" data-label="Question sent" src="assets/screen-sent.png" alt="">
+          <img class="fp" data-hold="3400" data-fx="push" data-label="The rabbi answers" src="assets/flow/6-answer.png" alt="">
+          <span class="tap"></span>
+        </div>
+        <div class="fp-bar"><span class="fp-label"></span><span class="fp-dots"></span></div>
+      </div>
+      <div class="cap r" style="margin:28px 0 0 12px"><h3>Question sent</h3><p>A clear confirmation, with an option to leave contact details so the rabbi can reply directly.</p></div>
+    </div>
+
+    <div class="scr" style="left:615px;top:1981px">
+      <div class="card grey img-card r" style="width:554px;height:760px">
+        <div class="lav par" style="left:93px;top:60px"><img src="assets/lavender-phone.png" alt=""></div>
+        <div class="scr-over par" style="left:129px;top:107px;width:304px;height:569px"><img src="assets/screen-videos.png" alt="Videos screen"></div>
+      </div>
+      <div class="cap r" style="margin:10px 0 0 9px"><h3>Videos</h3><p>A featured lesson and a searchable grid of short videos by Police Rabbinate rabbis.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ ADMIN SYSTEM ============ -->
+  <section class="admin">
+    <div class="sec-head r"><span class="num">08</span><h2 class="h-b">Admin System</h2></div>
+    <div class="card purple admin-hero r">
+      <p class="admin-word" id="adminWord">Admin System</p>
+      <img class="imac" src="1-imac-purple-full-exact%201.png" alt="Admin system on iMac" width="703" height="569">
+    </div>
+    <div class="two">
+      <div class="col" style="padding-top:114px">
+        <div class="card grey img-card r" style="height:553px">
+          <img class="par" src="3-macbook-cream-a%201.png" alt="Questions list on laptop" style="left:22px;top:25px;width:514px;height:514px">
+        </div>
+        <div class="cap2 r" style="margin:26px 0 0 2px"><h3>Question management</h3><p style="width:340px">Every question by topic, district and status: New / In progress / Answered.</p></div>
+        <div class="card purple img-card r" style="height:585px;margin-top:91px">
+          <img class="par" src="4-monitor-purple-a%201.png" alt="Content management on monitor" style="left:19px;top:52px;width:492px;height:492px">
+        </div>
+        <div class="cap2 r" style="margin-top:31px"><h3>Content management</h3><p style="width:342px">Publish posts, videos, daily halacha and updates; schedule and send push.</p></div>
+      </div>
+      <div class="col" style="padding-top:62px">
+        <div class="card grey img-card r" style="height:547px;overflow:visible;background:none">
+          <img src="2-dark-tilted-a%201.png" alt="Answer editor on tablet" style="left:0;top:0;width:554px;height:551px;border-radius:60px">
+        </div>
+        <div class="cap2 r" style="margin-top:26px"><h3>Answer editor</h3><p style="width:479px">The question beside the editor, templates for frequent answers, internal notes.</p></div>
+        <div class="card grey img-card r" style="height:656px;margin-top:65px">
+          <img class="par" src="6-cream-answer-b%201.png" alt="Answer screen on phone" style="left:0;top:79px;width:554px;height:577px;border-radius:56px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEXT ============ -->
+  <section class="next r">
+    <div>
+      <small>NEXT PROJECT</small>
+      <a class="big" href="../vort/">Vort Dating System <span aria-hidden="true">⟶</span></a>
+    </div>
+    <a class="back" href="../#works">← All works</a>
+  </section>
+
+</div>
+</div>
+
+<div class="toast" id="toast">Copied</div>
+<script src="site-header.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
