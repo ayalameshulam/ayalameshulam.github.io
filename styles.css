@@ -197,7 +197,7 @@ h1, h2, h3 { font-weight: 500; }
 .project__img--soon { position: relative; }
 .project__img--soon:hover img { transform: none; }
 .badge-soon {
-  position: absolute; top: 24px; left: 24px;
+  position: absolute; bottom: 24px; left: 24px;
   padding: 12px 22px; border-radius: 500px;
   background: #fff; color: #000;
   font-size: 18px; font-weight: 500; line-height: 1;
@@ -300,7 +300,7 @@ h1, h2, h3 { font-weight: 500; }
   .works__card { padding: 28px 20px; border-radius: 24px; }
   .project { grid-template-columns: 1fr; padding-block: 40px; gap: 28px; }
   .project__img { order: -1; border-radius: 20px; }
-  .badge-soon { top: 12px; left: 12px; padding: 8px 14px; font-size: 14px; }
+  .badge-soon { bottom: 12px; left: 12px; padding: 8px 14px; font-size: 14px; }
   .facts { grid-template-columns: repeat(3, auto); justify-content: space-between; gap: 8px 12px; }
   .facts dt { font-size: 22px; white-space: nowrap; }
   .facts dd { font-size: 11px; }
