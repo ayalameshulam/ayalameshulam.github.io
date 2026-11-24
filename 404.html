@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Ayala Meshulam – UX/UI Designer</title>
+  <script>
+    // Fix common wrong addresses (old /portfolio/ path, copied punctuation, capital letters).
+    // Anything still unknown goes to the home page.
+    (function () {
+      var path = location.pathname;
+      try { path = decodeURIComponent(path); } catch (e) {}
+      var fixed = path
+        .replace(/[*\s"'`<>()\[\],;‎‏‪-‮]+/g, '')
+        .replace(/^\/portfolio(?=\/|$)/i, '')
+        .replace(/^\/(cv|vort|police-rabbinate)(?=\/|$)/i, function (m) { return m.toLowerCase(); })
+        .replace(/\/{2,}/g, '/') || '/';
+      location.replace((fixed !== path ? fixed : '/') + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/"></noscript>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #e5e9eb; color: #000; font: 18px/1.4 system-ui, sans-serif; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <p>Taking you to <a href="/">ayalameshulam.github.io</a>…</p>
+</body>
+</html>
